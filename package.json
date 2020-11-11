@@ -1,0 +1,14 @@
+{
+  "name": "foodhive-website",
+  "version": "1.0.0",
+  "description": "Food Delivery Website Built With Bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm i bootstrap --save"
+  },
+  "author": "Stephen Igwebuike",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}

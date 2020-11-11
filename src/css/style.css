@@ -1,0 +1,53 @@
+.navee{
+
+  background-color: #9d0208;
+  
+}
+
+.nav-link {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover{
+  color: beige;
+}
+
+.navbar-brand{
+  color: #fff;
+  font-family: 'Libre Baskerville',
+  serif;
+  font-size: 1.4rem;
+  font-style: italic;
+
+}
+
+.navbar-brand:hover{
+  color: burlywood;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: #d00000;
+}
+
+/* Header Style */
+.header{
+
+  background-image: url('../assets/tableHeader.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Libre Baskerville',
+  serif;
+  font-weight: 700;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  height: 90vh;
+  text-align: center;
+  font-style: italic;
+  
+}
