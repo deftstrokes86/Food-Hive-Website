@@ -12,7 +12,9 @@
 }
 
 .nav-link:hover{
-  color: beige;
+  color: #ffa000;
+  transition: transform 450ms;
+  transform: scale(1.09);
 }
 
 .navbar-brand{
@@ -25,12 +27,18 @@
 }
 
 .navbar-brand:hover{
-  color: burlywood;
+  color: #ffa000;
+  transition: transform 450ms;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   background-color: #d00000;
+}
+
+.nav-pills .nav-link.active:hover,
+.nav-pills .show>.nav-link:hover{
+  background-color: #ffa000;
 }
 
 /* Header Style */
@@ -41,13 +49,38 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  height: 90vh;
+  text-align: center;
+  
+}
+
+.h1-header{
   font-family: 'Libre Baskerville',
   serif;
   font-weight: 700;
   padding-top: 150px;
-  padding-bottom: 100px;
-  height: 90vh;
-  text-align: center;
-  font-style: italic;
-  
+}
+
+.headerPara {
+  font-size: 3rem;
+  font-family: 'Aladin',
+  cursive;
+}
+
+.headerButton{
+  color: #fff;
+  background-color: #ffa000;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid #fff;
+  font-family: 'Ubuntu',
+  sans-serif;
+}
+
+.headerButton:hover{
+  background-color: #f44c02;
+  color: #fff;
+  transition: transform 450ms;
+  transform: scale(1.09);
+  transition-timing-function: ease-in-out;
 }
