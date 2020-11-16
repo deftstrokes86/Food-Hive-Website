@@ -7,6 +7,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Food Hive Restaurant - Where meals are just a click away"/>
 <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../src/css/slick.css">
+<link rel="stylesheet" href="../src/css/slick-theme.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
 <link rel="stylesheet" href="../src/css/style.css">
 <title>Food Hive Website</title>
@@ -35,10 +37,121 @@
   <p class="headerPara">where your taste buds come alive</p>
   <button class="headerButton">Explore Our Menu</button>
 </div>
+<!-- First Div (Intro) -->
+<div class="container">
+  <div class="row" id="intro">
+
+    <div class="col-12 col-md-6 introText text-center">
+      <h3 class="intro-heading">
+        Tasty, Scrumptious Delicacies...Everytime
+      </h3>
+      <p class="paraIntro">
+        That is the promise at FoodHive Restaurant. Every meal is a work of art crafted with the idea that food is an item that should first delight the senses, and then be enjoyed. Our chefs are not just cooks, they are artists, versed in their craft to create masterful culinary experiences and delicacies that are sure to leave your taste buds screaming for more with each morsel. 
+      </p>
+      <p class="paraIntro">
+        And that's not all, asides the promise of well cooked delicacies and treats, is the ambience at FoodHive that is not just beautiful, it is breath-taking. Everything from the lighting to the decor, from the welcome you receive at the entrance to the play area for the kids; everything is designed tastefully to be aesthetically pleasing because we believe every visit to FoodHive restaurant should be an unforgettable experience.
+      </p>
+      <button class="introButton">Learn More</button>
+    </div>
+    <div class="col-12 col-md-3">
+       <img src="../src/assets/banner1.jpg" alt="">
+    </div>
+    <div class="col-12 col-md-3">
+       <img src="../src/assets/banner2.jpg" alt="">
+    </div>
+  
+  </div>
+</div>
+<!-- Slider -->
+<div class="container-fluid sliderWrapper">
+  <div class="container">
+    <h2 class="sliderHeading text-white text-center">
+      WHAT'S ON THE MENU?
+    </h2>
+    <p class="sliderLead lead text-white text-center">
+      Some of our mouthwatering offerings
+    </p>
+  <div class="row sliderSection">
+    <div class="sliderItem text-center">
+      <img src="../src/assets/efo.png" class="sliderImage" alt="Efo Soup">
+      <p class="sliderItemName">Efo Riro</p>
+      <p class="sliderDescription">
+        Delicious Efo Riro sauce prepared just the way you like it with ponmo, dried fish, and your choice of either beef, goat meat or poultry.
+      </p>
+      <p class="sliderItemPrice">N3500</p>
+      <button class="sliderButton">Go to Cart</button>
+    </div>
+
+    <div class="sliderItem text-center">
+      <img src="../src/assets/joll.png" class="sliderImage" alt="Red Oil Jollof">
+      <p class="sliderItemName">Palm Oil Jollof</p>
+      <p class="sliderDescription">
+        Delicious palm oil jollof rice prepared with plenty of dried red shrimp and dried fish. You can have this with any meat product of your choice. Real yummy.
+      </p>
+      <p class="sliderItemPrice">N3000</p>
+      <button class="sliderButton">Go to Cart</button>
+    </div>
+
+    <div class="sliderItem text-center">
+      <img src="../src/assets/rice22.png" class="sliderImage" alt="Edikanekong Soup">
+      <p class="sliderItemName">Edikanekong Soup</p>
+      <p class="sliderDescription">
+        Scrumptious Edikanekong soup with addons. Ponmo: check, periwinkles: check, snails: check, dried fish: check... Are you getting the picture?
+      </p>
+      <p class="sliderItemPrice">N7000</p>
+      <button class="sliderButton">Go to Cart</button>
+    </div>
+
+    <div class="sliderItem text-center">
+      <img src="../src/assets/seafood.png" class="sliderImage" alt="Okro Soup">
+      <p class="sliderItemName">Sea Food Okro</p>
+      <p class="sliderDescription">
+        Delicious sea food Okro packed with shrimps, prawns, fresh fish, and snails. You also have the option of crabs and meat products. 
+      </p>
+      <p class="sliderItemPrice">N3500</p>
+      <button class="sliderButton">Go to Cart</button>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- Cards -->
+<div class="container">
+  <div class="row">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+      aria-controls="pills-home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+      aria-controls="pills-profile" aria-selected="false">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+      aria-controls="pills-contact" aria-selected="false">Contact</a>
+  </li>
+</ul>
+<div class="row tab-content pt-2 pl-1" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Consequat
+    occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.
+  </div>
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.
+  </div>
+    
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.    
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.
+  </div>
+</div>
+  </div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../src/js/slick.js"></script>
+<script src="../src/js/sliderScript.js"></script>
 </body>
 </html>

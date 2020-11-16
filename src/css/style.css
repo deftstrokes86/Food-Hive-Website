@@ -1,3 +1,8 @@
+body{
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
 .navee{
 
   background-color: #9d0208;
@@ -68,19 +73,147 @@
 }
 
 .headerButton{
-  color: #fff;
+
   background-color: #ffa000;
-  border-radius: 20px;
-  padding: 10px;
   border: 2px solid #fff;
+  text-transform: uppercase;
+  border-radius: 2.3em;
+  letter-spacing: 0.1em;
   font-family: 'Ubuntu',
   sans-serif;
+  color: #fff;
+  padding: 0.9em 1.8em;
 }
 
 .headerButton:hover{
   background-color: #f44c02;
   color: #fff;
-  transition: transform 450ms;
-  transform: scale(1.09);
+  transition:  0.45s;
   transition-timing-function: ease-in-out;
 }
+
+/* Intro */
+#intro{
+
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+}
+
+.introText{
+  margin-top: 8px;
+}
+
+.intro-heading, .paraIntro{
+
+ font-family: 'Ubuntu',
+ sans-serif;
+
+}
+
+.introButton{
+  text-transform: uppercase;
+  border-radius: 2.3em;
+  letter-spacing: 0.1em;
+  font-family: 'Ubuntu',
+  sans-serif;
+  background-color: #9d0208;
+  color: #fff;
+  padding: 0.9em 1.8em;
+  border: none;
+}
+
+img{
+  width: 100%;
+}
+
+/* Slider */
+.sliderImage{
+  padding: 10px 60px;
+  
+}
+
+.sliderWrapper{
+  background-image: url('../assets/bg_wood.jpg');
+  opacity: 1;
+}
+
+.sliderSection{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.sliderSection > [class*='col-']{
+  display: flex;
+  flex-direction: column;
+}
+
+.sliderSection {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.sliderSection > [class*='col-'] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.sliderItemName{
+  color: #fac122;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+
+
+}
+
+.sliderDescription, .sliderItemPrice{
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.sliderDescription{
+  font-size: 0.9em;
+  padding: 2px 5px;
+}
+
+.sliderButton{
+ text-transform: uppercase;
+ border-radius: 2.3em;
+ letter-spacing: 0.1em;
+ font-family: 'Ubuntu',
+ sans-serif;
+ background-color: #9d0208;
+ color: #fff;
+ padding: 0.9em 1.8em;
+ border: none;
+ margin-bottom: 30px;
+}
+
+.sliderHeading{
+  padding-top: 40px;
+  margin-bottom: 10px;
+  font-family: 'Ubuntu',
+  sans-serif;
+  font-weight: 500;
+}
+
+.sliderLead{
+  font-family: 'Ubuntu',
+  sans-serif;
+}
+
