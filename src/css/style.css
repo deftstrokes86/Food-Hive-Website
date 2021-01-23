@@ -1,7 +1,17 @@
 body{
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
+  padding: 0;
+  margin: 0;
 }
+/* All rows from Bootstrap containing images seem to have some extra margins coming from the right so this is intended to correct that */
+
+/*
+.rowWithImage{
+  margin-left: 8%;
+}
+*/
+
 
 .navee{
 
@@ -128,28 +138,29 @@ img{
 }
 
 /* Slider */
+
 .sliderImage{
-  padding: 10px 60px;
-  
+  padding: 10px 60px;  
 }
+
 
 .sliderWrapper{
   background-image: url('../assets/bg_wood.jpg');
   opacity: 1;
 }
 
-.sliderSection{
+.menuSlider{
   display: flex;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap;  
 }
 
-.sliderSection > [class*='col-']{
+.menuSlider > [class*='col-']{
   display: flex;
   flex-direction: column;
 }
 
-.sliderSection {
+
+.menuSlider {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -159,7 +170,7 @@ img{
   flex-wrap: wrap;
 }
 
-.sliderSection > [class*='col-'] {
+.menuSlider > [class*='col-'] {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -176,8 +187,6 @@ img{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-
-
 }
 
 .sliderDescription, .sliderItemPrice{
@@ -213,6 +222,41 @@ img{
 }
 
 .sliderLead{
+  font-family: 'Ubuntu',
+  sans-serif;
+}
+
+/* Cards Tab */
+
+img.cardImage{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.tabDetails{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.lineMargin{
+  margin-top: -2%;
+}
+
+
+.tab-price{
+  color: #9d0208;
+  font-weight: bolder;
+  font-family: 'Ubuntu',
+  sans-serif;
+}
+
+.tabName{
+  font-weight: bolder;
   font-family: 'Ubuntu',
   sans-serif;
 }

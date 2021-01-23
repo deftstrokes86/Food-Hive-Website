@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-  $('.sliderSection').slick({
+  $('.menuSlider').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
